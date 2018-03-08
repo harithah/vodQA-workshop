@@ -1,79 +1,100 @@
-<h1> Installation instructions</h1>
-<h2>Windows 10</h2>
-
-Download and  Install Docker.
-	https://docs.docker.com/docker-for-windows/install/ 
-
-     2. Enable Hyper-v and Virtualization 
-Enable virtualization via Bios
- 		( Search for your laptop specific way to enable virtualization  
-                      and enable via Bios)
-		Example for HP Probook  
-(https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems )
-		
-                  b. Enable Hyper-v, Please follow instructions on    
-              https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v
-
-         After Enabling Virtualization and Hyper-v , open task manager and 
-         virtualization enabled in Performance tab
-         
-  3. Star Docker from the Star menu 
-     4. Open command prompt and type
-docker --version
-
-<h2>Windows 7 and 8</h2>
-
-Download Docker toolbox from
-	https://docs.docker.com/toolbox/toolbox_install_windows/
-
-     2.    Make sure your Windows system supports Hardware Virtualization Technology and that virtualization is enabled.
-
-For Windows 8 or 8.1
-Choose Start > Task Manager and navigate to the Performance tab. Under CPU you should see the following:
-         
-     
-For Windows 7
-Run a tool like the Microsoft® Hardware-Assisted Virtualization Detection Tool or Speccy, and follow the on-screen instructions. 
-
-3. Verify docker is installed properly
-Open Docker QuickStart icon on Desktop and run:
-   docker run hello-world
-
-4. In case of failure open Oracle VM Virtual Box from Desktop and start VM. Now try again the above command.
-
-For troubleshooting refer: https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help
-
-
-<h2>Mac OS</h2>
-1.  Install docker from
-https://docs.docker.com/docker-for-mac/install/
-2. The whale in the top status bar indicates that Docker is running, and accessible from a terminal.
-
-3. Check if docker is setup by running
-docker --version
-
-<h2>Get ready for the workshop</h2>
-
-  1 . Checkout the workshop code
-     A. mkdir dockerWorkshop
-     B. cd  dockerWorkshop
-    C. git clone https://github.com/harithah/for_workshop.git
-     D. git clone https://github.com/harithah/vodQA-workshop.git
-     E. git clone https://github.com/harithah/ContainerisedTests.git
-
-[Install git from https://git-scm.com/downloads]
-
-  2. Bringing up the Application.
-      cd for_workshop
-      docker-compose up
-
-  Once the containers are up you access below url in Browser
-localhost:1313/users/new 
-localhost:1314/addresses/new
-
-
-Yay!!!  You are all setup for Docker
-
+<p><strong>Windows 10</strong></p>
+<p>&nbsp;</p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Download and &nbsp;Install Docker.</span></li>
+</ol>
+<p><a href="https://docs.docker.com/docker-for-windows/install/"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/install/</span></a></p>
+<p>&nbsp;</p>
+<ol start="2">
+<li><span style="font-weight: 400;"> Enable Hyper-v and Virtualization </span></li>
+</ol>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Enable virtualization via Bios</span></li>
+</ol>
+<p><span style="font-weight: 400;">( Search for your laptop specific way to enable virtualization &nbsp;</span></p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and enable via Bios)</span></p>
+<p><span style="font-weight: 400;">Example for HP Probook &nbsp;</span></p>
+<p><span style="font-weight: 400;">(</span><a href="https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems"><span style="font-weight: 400;">https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems</span></a><span style="font-weight: 400;"> )</span></p>
+<ol>
+<li><span style="font-weight: 400;"> Enable Hyper-v, Please follow instructions on &nbsp;&nbsp;&nbsp;</span></li>
+</ol>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v</span></a></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After Enabling Virtualization and Hyper-v , open task manager and </span></p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;virtualization enabled in Performance tab</span></p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<ol start="3">
+<li><span style="font-weight: 400;"> Star Docker from the Star menu </span></li>
+<li><span style="font-weight: 400;"> Open command prompt and type</span></li>
+</ol>
+<p><span style="font-weight: 400;">docker --version</span></p>
+<p>&nbsp;</p>
+<p><strong>Windows 7 and 8</strong></p>
+<p>&nbsp;</p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Download Docker toolbox from</span></li>
+</ol>
+<p><a href="https://docs.docker.com/toolbox/toolbox_install_windows/"><span style="font-weight: 400;">https://docs.docker.com/toolbox/toolbox_install_windows/</span></a></p>
+<p>&nbsp;</p>
+<ol start="2">
+<li><span style="font-weight: 400;">Make sure your Windows system supports Hardware Virtualization Technology and that virtualization is enabled.</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>For Windows 8 or 8.1</strong></p>
+<p><span style="font-weight: 400;">Choose </span><strong>Start &gt; Task Manager</strong><span style="font-weight: 400;"> and navigate to the </span><strong>Performance</strong><span style="font-weight: 400;"> tab. Under </span><strong>CPU</strong><span style="font-weight: 400;"> you should see the following:</span></p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p><strong>For Windows 7</strong></p>
+<p><span style="font-weight: 400;">Run a tool like the </span><a href="http://www.microsoft.com/en-us/download/details.aspx?id=592"><span style="font-weight: 400;">Microsoft&reg; Hardware-Assisted Virtualization Detection Tool</span></a><span style="font-weight: 400;"> or </span><a href="https://www.piriform.com/speccy"><span style="font-weight: 400;">Speccy</span></a><span style="font-weight: 400;">, and follow the on-screen instructions. </span></p>
+<p>&nbsp;</p>
+<ol start="3">
+<li><span style="font-weight: 400;"> Verify docker is installed properly</span></li>
+</ol>
+<p><span style="font-weight: 400;">Open Docker QuickStart icon on Desktop and run:</span></p>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;</span><span style="font-weight: 400;">docker run hello-world</span></p>
+<p>&nbsp;</p>
+<ol start="4">
+<li><span style="font-weight: 400;"> In case of failure open Oracle VM Virtual Box from Desktop and start VM. Now try again the above command.</span></li>
+</ol>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">For troubleshooting refer: </span><a href="https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help"><span style="font-weight: 400;">https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help</span></a></p>
+<p><br /><br /></p>
+<p><strong>Mac OS</strong></p>
+<ol>
+<li><span style="font-weight: 400;"> &nbsp;Install docker from</span></li>
+</ol>
+<p><a href="https://docs.docker.com/docker-for-mac/install/"><span style="font-weight: 400;">https://docs.docker.com/docker-for-mac/install/</span></a></p>
+<ol start="2">
+<li><span style="font-weight: 400;"> The whale in the top status bar indicates that Docker is running, and accessible from a terminal.</span></li>
+<li><span style="font-weight: 400;"> Check if docker is setup by running</span></li>
+</ol>
+<p><span style="font-weight: 400;">docker </span><span style="font-weight: 400;">--version</span></p>
+<p>&nbsp;</p>
+<p><strong>Get ready for the workshop</strong></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"> &nbsp;1 . Checkout the workshop code</span></p>
+<ol>
+<li><em><span style="font-weight: 400;"> mkdir dockerWorkshop</span></em></li>
+<li><em><span style="font-weight: 400;">cd</span></em><em><span style="font-weight: 400;"> &nbsp;</span></em><em><span style="font-weight: 400;">dockerWorkshop</span></em></li>
+<li><em><span style="font-weight: 400;"> &nbsp;</span></em> <em><span style="font-weight: 400;">git clone</span></em> <a href="https://github.com/harithah/for_workshop.git"><em><span style="font-weight: 400;">https://github.com/harithah/for_workshop.git</span></em></a></li>
+<li><em><span style="font-weight: 400;"> git clone</span></em> <a href="https://github.com/harithah/vodQA-workshop.git"><em><span style="font-weight: 400;">https://github.com/harithah/vodQA-workshop.git</span></em></a></li>
+<li><em><span style="font-weight: 400;">git clone</span></em> <a href="https://github.com/harithah/ContainerisedTests.git"><em><span style="font-weight: 400;">https://github.com/harithah/ContainerisedTests.git</span></em></a></li>
+</ol>
+<p>&nbsp;</p>
+<p><strong><em>[Install git from </em></strong><a href="https://git-scm.com/downloads"><strong><em>https://git-scm.com/downloads</em></strong></a><strong><em>]</em></strong></p>
+<p>&nbsp;</p>
+<ol start="2">
+<li><span style="font-weight: 400;"> Bringing up the Application.</span></li>
+</ol>
+<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;</span><em><span style="font-weight: 400;">&nbsp;cd for_workshop</span></em></p>
+<p><em><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker-compose up</span></em></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"> &nbsp;Once the containers are up you access below url in Browser</span></p>
+<p><span style="font-weight: 400;">localhost:1313/users/new </span></p>
+<p><span style="font-weight: 400;">localhost:1314/addresses/new</span></p>
+<p><br /><br /></p>
+<p><span style="font-weight: 400;">Yay!!! &nbsp;You are all setup for Docker</span></p>
+<p>&nbsp;</p>
 
 # Commands to know
 
