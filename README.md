@@ -1,35 +1,28 @@
-<p><strong>Windows 10</strong></p>
+<h1><strong>Installation instructions</strong></h1>
+<h2><strong>Windows 10</strong></h2>
 <p>&nbsp;</p>
 <ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Download and &nbsp;Install Docker.</span></li>
 </ol>
 <p><a href="https://docs.docker.com/docker-for-windows/install/"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/install/</span></a></p>
-<p>&nbsp;</p>
 <ol start="2">
-<li><span style="font-weight: 400;"> Enable Hyper-v and Virtualization </span></li>
+<li><span style="font-weight: 400;"> Enable Hyper-v and Virtualization <br /></span><span style="font-weight: 400;">a. Enable virtualization via Bios</span></li>
 </ol>
-<ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Enable virtualization via Bios</span></li>
-</ol>
-<p><span style="font-weight: 400;">( Search for your laptop specific way to enable virtualization &nbsp;</span></p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and enable via Bios)</span></p>
+<p><span style="font-weight: 400;">( Search for your laptop specific way to enable virtualization</span><span style="font-weight: 400;">&nbsp;and enable via Bios)</span></p>
 <p><span style="font-weight: 400;">Example for HP Probook &nbsp;</span></p>
 <p><span style="font-weight: 400;">(</span><a href="https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems"><span style="font-weight: 400;">https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems</span></a><span style="font-weight: 400;"> )</span></p>
-<ol>
-<li><span style="font-weight: 400;"> Enable Hyper-v, Please follow instructions on &nbsp;&nbsp;&nbsp;</span></li>
-</ol>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v</span></a></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;b. Enable Hyper-v, Please follow instructions on &nbsp; &nbsp;</p>
+<p><a href="https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v</span></a></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After Enabling Virtualization and Hyper-v , open task manager and </span></p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;virtualization enabled in Performance tab</span></p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p><span style="font-weight: 400;">After Enabling Virtualization and Hyper-v , open task manager and</span><span style="font-weight: 400;">&nbsp;virtualization should be enabled in Performance tab</span></p>
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
 <ol start="3">
 <li><span style="font-weight: 400;"> Star Docker from the Star menu </span></li>
 <li><span style="font-weight: 400;"> Open command prompt and type</span></li>
 </ol>
 <p><span style="font-weight: 400;">docker --version</span></p>
 <p>&nbsp;</p>
-<p><strong>Windows 7 and 8</strong></p>
+<h2><strong>Windows 7 and 8</strong></h2>
 <p>&nbsp;</p>
 <ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Download Docker toolbox from</span></li>
@@ -41,9 +34,8 @@
 </ol>
 <p>&nbsp;</p>
 <p><strong>For Windows 8 or 8.1</strong></p>
-<p><span style="font-weight: 400;">Choose </span><strong>Start &gt; Task Manager</strong><span style="font-weight: 400;"> and navigate to the </span><strong>Performance</strong><span style="font-weight: 400;"> tab. Under </span><strong>CPU</strong><span style="font-weight: 400;"> you should see the following:</span></p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p><span style="font-weight: 400;">Choose </span><strong>Start &gt; Task Manager</strong><span style="font-weight: 400;"> and navigate to the </span><strong>Performance</strong><span style="font-weight: 400;"> tab. Under </span><strong>CPU</strong><span style="font-weight: 400;"> you should see the virtualization enabled.</span></p>
+<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
 <p><strong>For Windows 7</strong></p>
 <p><span style="font-weight: 400;">Run a tool like the </span><a href="http://www.microsoft.com/en-us/download/details.aspx?id=592"><span style="font-weight: 400;">Microsoft&reg; Hardware-Assisted Virtualization Detection Tool</span></a><span style="font-weight: 400;"> or </span><a href="https://www.piriform.com/speccy"><span style="font-weight: 400;">Speccy</span></a><span style="font-weight: 400;">, and follow the on-screen instructions. </span></p>
 <p>&nbsp;</p>
@@ -59,7 +51,7 @@
 <p>&nbsp;</p>
 <p><span style="font-weight: 400;">For troubleshooting refer: </span><a href="https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help"><span style="font-weight: 400;">https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help</span></a></p>
 <p><br /><br /></p>
-<p><strong>Mac OS</strong></p>
+<h2><strong>Mac OS</strong></h2>
 <ol>
 <li><span style="font-weight: 400;"> &nbsp;Install docker from</span></li>
 </ol>
@@ -70,7 +62,7 @@
 </ol>
 <p><span style="font-weight: 400;">docker </span><span style="font-weight: 400;">--version</span></p>
 <p>&nbsp;</p>
-<p><strong>Get ready for the workshop</strong></p>
+<h2><strong>Get ready for the workshop</strong></h2>
 <p>&nbsp;</p>
 <p><span style="font-weight: 400;"> &nbsp;1 . Checkout the workshop code</span></p>
 <ol>
@@ -95,7 +87,6 @@
 <p><br /><br /></p>
 <p><span style="font-weight: 400;">Yay!!! &nbsp;You are all setup for Docker</span></p>
 <p>&nbsp;</p>
-
 # Commands to know
 
 docker ps
