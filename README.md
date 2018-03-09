@@ -1,115 +1,104 @@
 <h1><strong>Installation instructions</strong></h1>
-<h2><strong>Windows 10</strong></h2>
+<h2><a id="user-content-windows-10" class="anchor" href="https://github.com/harithah/vodQA-workshop/blob/master/README.md#windows-10" aria-hidden="true"></a><strong>Windows 10</strong></h2>
 <p>&nbsp;</p>
 <ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Download and &nbsp;Install Docker.</span></li>
+<li>Download and &nbsp;Install Docker.</li>
 </ol>
-<p><a href="https://docs.docker.com/docker-for-windows/install/"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/install/</span></a></p>
+<p><a href="https://docs.docker.com/docker-for-windows/install/" rel="nofollow">https://docs.docker.com/docker-for-windows/install/</a></p>
 <ol start="2">
-<li><span style="font-weight: 400;"> Enable Hyper-v and Virtualization <br /></span><span style="font-weight: 400;">a. Enable virtualization via Bios</span></li>
+<li>Enable Hyper-v and Virtualization <br />a. Enable virtualization via Bios</li>
 </ol>
-<p><span style="font-weight: 400;">( Search for your laptop specific way to enable virtualization</span><span style="font-weight: 400;">&nbsp;and enable via Bios)</span></p>
-<p><span style="font-weight: 400;">Example for HP Probook &nbsp;</span></p>
-<p><span style="font-weight: 400;">(</span><a href="https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems"><span style="font-weight: 400;">https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems</span></a><span style="font-weight: 400;"> )</span></p>
+<p>( Search for your laptop specific way to enable virtualization&nbsp;and enable via Bios)</p>
+<p>Example for HP Probook &nbsp;</p>
+<p>(<a href="https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems" rel="nofollow">https://amiduos.com/support/knowledge-base/article/enabling-virtualization-technology-in-hp-systems</a> )</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;b. Enable Hyper-v, Please follow instructions on &nbsp; &nbsp;</p>
-<p><a href="https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v"><span style="font-weight: 400;">https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v</span></a></p>
+<p><a href="https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v" rel="nofollow">https://docs.docker.com/docker-for-windows/troubleshoot/#hyper-v</a></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">After Enabling Virtualization and Hyper-v , open task manager and</span><span style="font-weight: 400;">&nbsp;virtualization should be enabled in Performance tab</span></p>
-<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+<p>After Enabling Virtualization and Hyper-v , open task manager and&nbsp;virtualization should be enabled in Performance tab</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
 <ol start="3">
-<li><span style="font-weight: 400;"> Star Docker from the Star menu </span></li>
-<li><span style="font-weight: 400;"> Open command prompt and type</span></li>
+<li>Star Docker from the Star menu</li>
+<li>Open command prompt and type</li>
 </ol>
-<p><span style="font-weight: 400;">docker --version</span></p>
+<p>docker --version</p>
 <p>&nbsp;</p>
-<h2><strong>Windows 7 and 8</strong></h2>
+<h2><a id="user-content-windows-7-and-8" class="anchor" href="https://github.com/harithah/vodQA-workshop/blob/master/README.md#windows-7-and-8" aria-hidden="true"></a><strong>Windows 7 and 8</strong></h2>
 <p>&nbsp;</p>
 <ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Download Docker toolbox from</span></li>
+<li>Download Docker toolbox from</li>
 </ol>
-<p><a href="https://docs.docker.com/toolbox/toolbox_install_windows/"><span style="font-weight: 400;">https://docs.docker.com/toolbox/toolbox_install_windows/</span></a></p>
+<p><a href="https://docs.docker.com/toolbox/toolbox_install_windows/" rel="nofollow">https://docs.docker.com/toolbox/toolbox_install_windows/</a></p>
 <p>&nbsp;</p>
 <ol start="2">
-<li><span style="font-weight: 400;">Make sure your Windows system supports Hardware Virtualization Technology and that virtualization is enabled.</span></li>
+<li>Make sure your Windows system supports Hardware Virtualization Technology and that virtualization is enabled.</li>
 </ol>
 <p>&nbsp;</p>
 <p><strong>For Windows 8 or 8.1</strong></p>
-<p><span style="font-weight: 400;">Choose </span><strong>Start &gt; Task Manager</strong><span style="font-weight: 400;"> and navigate to the </span><strong>Performance</strong><span style="font-weight: 400;"> tab. Under </span><strong>CPU</strong><span style="font-weight: 400;"> you should see the virtualization enabled.</span></p>
-<p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>&nbsp; &nbsp;&nbsp;</p>
+<p>Choose <strong>Start &gt; Task Manager</strong> and navigate to the <strong>Performance</strong> tab. Under <strong>CPU</strong> you should see the virtualization enabled.</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p>
 <p><strong>For Windows 7</strong></p>
-<p><span style="font-weight: 400;">Run a tool like the </span><a href="http://www.microsoft.com/en-us/download/details.aspx?id=592"><span style="font-weight: 400;">Microsoft&reg; Hardware-Assisted Virtualization Detection Tool</span></a><span style="font-weight: 400;"> or </span><a href="https://www.piriform.com/speccy"><span style="font-weight: 400;">Speccy</span></a><span style="font-weight: 400;">, and follow the on-screen instructions. </span></p>
+<p>Run a tool like the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=592" rel="nofollow">Microsoft&reg; Hardware-Assisted Virtualization Detection Tool</a> or <a href="https://www.piriform.com/speccy" rel="nofollow">Speccy</a>, and follow the on-screen instructions.</p>
 <p>&nbsp;</p>
 <ol start="3">
-<li><span style="font-weight: 400;"> Verify docker is installed properly</span></li>
+<li>Verify docker is installed properly</li>
 </ol>
-<p><span style="font-weight: 400;">Open Docker QuickStart icon on Desktop and run:</span></p>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;</span><span style="font-weight: 400;">docker run hello-world</span></p>
+<p>Open Docker QuickStart icon on Desktop and run:</p>
+<p>&nbsp;&nbsp;docker run hello-world</p>
 <p>&nbsp;</p>
 <ol start="4">
-<li><span style="font-weight: 400;"> In case of failure open Oracle VM Virtual Box from Desktop and start VM. Now try again the above command.</span></li>
+<li>In case of failure open Oracle VM Virtual Box from Desktop and start VM. Now try again the above command.</li>
 </ol>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">For troubleshooting refer: </span><a href="https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help"><span style="font-weight: 400;">https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help</span></a></p>
+<p>For troubleshooting refer: <a href="https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help" rel="nofollow">https://docs.docker.com/toolbox/toolbox_install_windows/#looking-for-troubleshooting-help</a></p>
 <p><br /><br /></p>
-<h2><strong>Mac OS</strong></h2>
+<h2><a id="user-content-mac-os" class="anchor" href="https://github.com/harithah/vodQA-workshop/blob/master/README.md#mac-os" aria-hidden="true"></a><strong>Mac OS</strong></h2>
 <ol>
-<li><span style="font-weight: 400;"> &nbsp;Install docker from</span></li>
+<li>&nbsp;Install docker from</li>
 </ol>
-<p><a href="https://docs.docker.com/docker-for-mac/install/"><span style="font-weight: 400;">https://docs.docker.com/docker-for-mac/install/</span></a></p>
+<p><a href="https://docs.docker.com/docker-for-mac/install/" rel="nofollow">https://docs.docker.com/docker-for-mac/install/</a></p>
 <ol start="2">
-<li><span style="font-weight: 400;"> The whale in the top status bar indicates that Docker is running, and accessible from a terminal.</span></li>
-<li><span style="font-weight: 400;"> Check if docker is setup by running</span></li>
+<li>The whale in the top status bar indicates that Docker is running, and accessible from a terminal.</li>
+<li>Check if docker is setup by running</li>
 </ol>
-<p><span style="font-weight: 400;">docker </span><span style="font-weight: 400;">--version</span></p>
+<p>docker --version</p>
 <p>&nbsp;</p>
-<h2><strong>Get ready for the workshop</strong></h2>
-<p>&nbsp;</p>
-<p><span style="font-weight: 400;"> &nbsp;1 . Checkout the workshop code</span></p>
+<h2><a id="user-content-get-ready-for-the-workshop" class="anchor" href="https://github.com/harithah/vodQA-workshop/blob/master/README.md#get-ready-for-the-workshop" aria-hidden="true"></a><strong>Get ready for the workshop</strong></h2>
+<p>&nbsp;Create an account at:</p>
+<p><a href="https://cloud.docker.com/">https://cloud.docker.com/</a></p>
+<p>Once you are done run the command:</p>
+<p>docker login</p>
+<p>Supply username and password</p>
+<p>&nbsp;1 . Checkout the workshop code</p>
 <ol>
-<li><em><span style="font-weight: 400;"> mkdir dockerWorkshop</span></em></li>
-<li><em><span style="font-weight: 400;">cd</span></em><em><span style="font-weight: 400;"> &nbsp;</span></em><em><span style="font-weight: 400;">dockerWorkshop</span></em></li>
-<li><em><span style="font-weight: 400;"> &nbsp;</span></em> <em><span style="font-weight: 400;">git clone</span></em> <a href="https://github.com/harithah/for_workshop.git"><em><span style="font-weight: 400;">https://github.com/harithah/for_workshop.git</span></em></a></li>
-<li><em><span style="font-weight: 400;"> git clone</span></em> <a href="https://github.com/harithah/vodQA-workshop.git"><em><span style="font-weight: 400;">https://github.com/harithah/vodQA-workshop.git</span></em></a></li>
-<li><em><span style="font-weight: 400;">git clone</span></em> <a href="https://github.com/harithah/ContainerisedTests.git"><em><span style="font-weight: 400;">https://github.com/harithah/ContainerisedTests.git</span></em></a></li>
+<li><em> mkdir dockerWorkshop</em></li>
+<li><em>cd</em><em> &nbsp;</em><em>dockerWorkshop</em></li>
+<li><em> &nbsp;</em> <em>git clone</em> <a href="https://github.com/harithah/for_workshop.git"><em>https://github.com/harithah/for_workshop.git</em></a></li>
+<li><em> git clone</em> <a href="https://github.com/harithah/vodQA-workshop.git"><em>https://github.com/harithah/vodQA-workshop.git</em></a></li>
+<li><em>git clone</em> <a href="https://github.com/harithah/ContainerisedTests.git"><em>https://github.com/harithah/ContainerisedTests.git</em></a></li>
 </ol>
 <p>&nbsp;</p>
-<p><strong><em>[Install git from </em></strong><a href="https://git-scm.com/downloads"><strong><em>https://git-scm.com/downloads</em></strong></a><strong><em>]</em></strong></p>
+<p><strong><em>[Install git from </em></strong><a href="https://git-scm.com/downloads" rel="nofollow"><strong><em>https://git-scm.com/downloads</em></strong></a><strong><em>]</em></strong></p>
 <p>&nbsp;</p>
 <ol start="2">
-<li><span style="font-weight: 400;"> Bringing up the Application.</span></li>
+<li>Bringing up the Application.</li>
 </ol>
-<p><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;</span><em><span style="font-weight: 400;">&nbsp;cd for_workshop</span></em></p>
-<p><em><span style="font-weight: 400;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker-compose up</span></em></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;cd for_workshop</em></p>
+<p><em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker-compose up</em></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;"> &nbsp;Once the containers are up you access below url in Browser</span></p>
-<p><span style="font-weight: 400;">localhost:1313/users/new </span></p>
-<p><span style="font-weight: 400;">localhost:1314/addresses/new</span></p>
+<p>&nbsp;Once the containers are up you access below url in Browser</p>
+<p>localhost:1313/users/new</p>
+<p>localhost:1314/addresses/new</p>
 <p><br /><br /></p>
-<p><span style="font-weight: 400;">Yay!!! &nbsp;You are all setup for Docker</span></p>
+<p>Yay!!! &nbsp;You are all setup for Docker</p>
 <p>&nbsp;</p>
-# Commands to know
-
-docker ps
-
-docker images
-
-docker networks ls
-
-docker inspect <>
-
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
-docker ps -a | grep "selenium" | awk '{print $1}' |xargs docker rm -f
-
-docker images -f dangling=true
-docker rmi $(docker images -f dangling=true -q)
-docker rm $(docker ps -a -f status=exited -q)
-
-
-docker volume ls
-
-docker volume rm volume_name volume_name
-
-docker volume rm $(docker volume ls -f dangling=true -q)
-
-docker rm -v container_name
+<h2>Commands to know</h2>
+<p>docker ps</p>
+<p>docker images</p>
+<p>docker networks ls</p>
+<p>docker inspect &lt;&gt;</p>
+<p>docker stop $(docker ps -a -q) docker rm $(docker ps -a -q) docker ps -a | grep "selenium" | awk '{print $1}' |xargs docker rm -f</p>
+<p>docker images -f dangling=true docker rmi $(docker images -f dangling=true -q) docker rm $(docker ps -a -f status=exited -q)</p>
+<p>docker volume ls</p>
+<p>docker volume rm volume_name volume_name</p>
+<p>docker volume rm $(docker volume ls -f dangling=true -q)</p>
+<p>docker rm -v container_name</p>
