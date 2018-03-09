@@ -64,7 +64,7 @@
 <p>&nbsp;</p>
 <h2><a id="user-content-get-ready-for-the-workshop" class="anchor" href="https://github.com/harithah/vodQA-workshop/blob/master/README.md#get-ready-for-the-workshop" aria-hidden="true"></a><strong>Get ready for the workshop</strong></h2>
 <p>&nbsp;Create an account at:</p>
-<p><a href="https://cloud.docker.com/">https://cloud.docker.com/</a></p>
+<p><a href="https://hub.docker.com/">https://hub.docker.com/</a></p>
 <p>Once you are done run the command:</p>
 <p>docker login</p>
 <p>Supply username and password</p>
