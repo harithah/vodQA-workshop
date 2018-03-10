@@ -73,6 +73,7 @@
 <li><em> mkdir dockerWorkshop</em></li>
 <li><em>cd</em><em> &nbsp;</em><em>dockerWorkshop</em></li>
 <li><em> &nbsp;</em> <em>git clone</em> <a href="https://github.com/harithah/for_workshop.git"><em>https://github.com/harithah/for_workshop.git</em></a></li>
+<li>Windows 7& 8 users use the branch 'for_windows' . You can do a git checkout for_windows after the git clone</li>
 <li><em> git clone</em> <a href="https://github.com/harithah/vodQA-workshop.git"><em>https://github.com/harithah/vodQA-workshop.git</em></a></li>
 <li><em>git clone</em> <a href="https://github.com/harithah/ContainerisedTests.git"><em>https://github.com/harithah/ContainerisedTests.git</em></a></li>
 </ol>
@@ -84,10 +85,14 @@
 </ol>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;cd for_workshop</em></p>
 <p><em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker-compose up</em></p>
+<p>Windows 7 & 8 users also try docker-compose up -d --build if the above command does not work</p>
 <p>&nbsp;</p>
 <p>&nbsp;Once the containers are up you access below url in Browser</p>
 <p>localhost:1313/users/new</p>
 <p>localhost:1314/addresses/new</p>
+<p>Windows 7 & 8 users can access the app at:</p>
+<p>192.168.99.100:1313/users/new</p>
+<p>192.168.99.100:1314/addresses/new</p>
 <p><br /><br /></p>
 <p>Yay!!! &nbsp;You are all setup for Docker</p>
 <p>&nbsp;</p>
