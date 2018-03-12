@@ -68,7 +68,7 @@
 <p>Once you are done run the command:</p>
 <p>docker login</p>
 <p>Supply username and password</p>
-<p>&nbsp;1 . Checkout the workshop code</p>
+
 <ol>
 <li><em> mkdir dockerWorkshop</em></li>
 <li><em>cd</em><em> &nbsp;</em><em>dockerWorkshop</em></li>
@@ -76,6 +76,11 @@
 <li>Windows 7& 8 users use the branch 'for_windows' . You can do a git checkout for_windows after the git clone</li>
 <li><em> git clone</em> <a href="https://github.com/harithah/vodQA-workshop.git"><em>https://github.com/harithah/vodQA-workshop.git</em></a></li>
 <li><em>git clone</em> <a href="https://github.com/harithah/ContainerisedTests.git"><em>https://github.com/harithah/ContainerisedTests.git</em></a></li>
+<li>git pull selenium/hub</li> 
+<li>git pull selenium/node-phantomjs</li>
+<li>git pull selenium/node-chrome-debug</li>
+<li>git pull selenium/node-firefox-debug</li>
+<li>git pull selenium/node-firefox-debug:3.4.0-bismuth</li>
 </ol>
 <p>&nbsp;</p>
 <p><strong><em>[Install git from </em></strong><a href="https://git-scm.com/downloads" rel="nofollow"><strong><em>https://git-scm.com/downloads</em></strong></a><strong><em>]</em></strong></p>
