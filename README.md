@@ -76,11 +76,11 @@
 <li>Windows 7& 8 users use the branch 'for_windows' . You can do a git checkout for_windows after the git clone</li>
 <li><em> git clone</em> <a href="https://github.com/harithah/vodQA-workshop.git"><em>https://github.com/harithah/vodQA-workshop.git</em></a></li>
 <li><em>git clone</em> <a href="https://github.com/harithah/ContainerisedTests.git"><em>https://github.com/harithah/ContainerisedTests.git</em></a></li>
-<li>git pull selenium/hub</li> 
-<li>git pull selenium/node-phantomjs</li>
-<li>git pull selenium/node-chrome-debug</li>
-<li>git pull selenium/node-firefox-debug</li>
-<li>git pull selenium/node-firefox-debug:3.4.0-bismuth</li>
+<li>docker pull selenium/hub</li> 
+<li>docker pull selenium/node-phantomjs</li>
+<li>docker pull selenium/node-chrome-debug</li>
+<li>docker pull selenium/node-firefox-debug</li>
+<li>docker pull selenium/node-firefox-debug:3.4.0-bismuth</li>
 </ol>
 <p>&nbsp;</p>
 <p><strong><em>[Install git from </em></strong><a href="https://git-scm.com/downloads" rel="nofollow"><strong><em>https://git-scm.com/downloads</em></strong></a><strong><em>]</em></strong></p>
@@ -106,9 +106,15 @@
 <p>docker images</p>
 <p>docker networks ls</p>
 <p>docker inspect &lt;&gt;</p>
-<p>docker stop $(docker ps -a -q) docker rm $(docker ps -a -q) docker ps -a | grep "selenium" | awk '{print $1}' |xargs docker rm -f</p>
 <p>docker images -f dangling=true docker rmi $(docker images -f dangling=true -q) docker rm $(docker ps -a -f status=exited -q)</p>
 <p>docker volume ls</p>
 <p>docker volume rm volume_name volume_name</p>
 <p>docker volume rm $(docker volume ls -f dangling=true -q)</p>
 <p>docker rm -v container_name</p>
+<p>docker run -d -p 4446:4444 --name selenium-hub selenium/hub</p>
+<p>docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug</p>
+<p>docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug</p>
+<p>docker run -d -e PHANTOMJS_OPTS="--ignore-ssl-errors=true" --link selenium-hub:hub selenium/node-phantomjs</p>
+<p>docker stop $(docker ps -a -q) docker rm $(docker ps -a -q) docker ps -a | grep "selenium" | awk '{print $1}' |xargs docker rm -f</p>
+<p>docker-compose up -d</p>
+
