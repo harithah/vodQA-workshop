@@ -81,6 +81,7 @@
 <li>docker pull selenium/node-chrome-debug</li>
 <li>docker pull selenium/node-firefox-debug</li>
 <li>docker pull selenium/node-firefox-debug:3.4.0-bismuth</li>
+  <li>docker pull harithahari/vodqaworkshoptests</li>  
 </ol>
 <p>&nbsp;</p>
 <p><strong><em>[Install git from </em></strong><a href="https://git-scm.com/downloads" rel="nofollow"><strong><em>https://git-scm.com/downloads</em></strong></a><strong><em>]</em></strong></p>
