@@ -116,6 +116,6 @@
 <p>docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug</p>
 <p>docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug</p>
 <p>docker run -d -e PHANTOMJS_OPTS="--ignore-ssl-errors=true" --link selenium-hub:hub selenium/node-phantomjs</p>
-<p>docker stop $(docker ps -a -q) docker rm $(docker ps -a -q) docker ps -a | grep "selenium" | awk '{print $1}' |xargs docker rm -f</p>
+<p>docker ps -a | awk '{ print $1,$2 }' | grep selenium | awk '{print $1 }' | xargs -I {} docker rm {}</p>
 <p>docker-compose up -d</p>
 
